@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="22px" height="14px" viewBox="0 0 22 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>list view icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Contacts-List-view-2" transform="translate(-146.000000, -157.000000)" fill="#3F4249">
+            <g id="Group-3" transform="translate(133.000000, 101.000000)">
+                <g id="list-view-icon" transform="translate(13.000000, 56.000000)">
+                    <rect id="Rectangle-3" x="0" y="0" width="21.4336001" height="3.78240001"></rect>
+                    <rect id="Rectangle-3" x="0" y="5.04320002" width="21.4336001" height="3.78240001"></rect>
+                    <rect id="Rectangle-3" x="0" y="10.0864" width="21.4336001" height="3.78240001"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
