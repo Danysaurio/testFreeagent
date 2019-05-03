@@ -4,7 +4,7 @@ import apple from '../assets/img/logo-apple.png';
 const Card = props=>{
     return(
         <div className="col">
-            <div className={props.card + " card"}>
+            <div className={props.data.type + " card"}>
                 <div className="card__header" style={{backgroundImage:`url(${apple})`}}>
                 </div>
                 <div className="card__body">
@@ -21,15 +21,15 @@ const Card = props=>{
                                 <p>Owner</p>
                             </div>
                             <div className="card__body__row">
-                                <p>Apple IT Deal</p>
-                                <p>Cupertino, CA</p>
-                                <p>January 30, 2017</p>
-                                <p>Me</p>
+                                <p>{props.data.name}</p>
+                                <p>{props.data.location}</p>
+                                <p>{props.data.closed}</p>
+                                <p>{props.data.owner}</p>
                             </div>
                         </div>
                         <div className="card__footer d-flex">
                             <div className="card__footer__num">
-                                <span>80%</span>
+                                <span>{props.data.porcent}</span>
                             </div>
                             <div className="card__footer__avatar">
                                 <div className="avatar"></div>
