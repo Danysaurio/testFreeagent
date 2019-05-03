@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from '../assets/img/logotipo.png';
+import logo from '../assets/img/logotipo.png';  
 
 
 const Header = props=>{
     return(
         <header className="header">
             <div className="header__box d-flex">
-                <figure className="header__logo">
+                <figure className="header__logo ">
                     <img src={logo} alt="logo" className="header__logo__img"/>
                 </figure>
                 <div className="d-flex">
@@ -27,12 +27,12 @@ const Header = props=>{
                             Reports
                         </li>
                         <li className="header__list__item header__list__item--bell">
-                            <img src="" alt=""/>
+                            <i className="icon-bell icon"></i>
                         </li>
                     </ul>
                     <div className="header__avatar d-flex">
                         <div className="avatar"></div>
-
+                        <i className="header__avatar__arrow"></i>
                     </div>
                 </div>
             </div>
